@@ -12,10 +12,14 @@ public class Ex14 {
 		for(int i = 1; i <= x; i++) {
 			sum += i;
 			System.out.print(i);
+			
 			if(i < x) {
 				 System.out.print("+");
 			}
+			
+			
 		}
+		
 		System.out.println("\nÇÕ°è : " + sum);
 	}
 }

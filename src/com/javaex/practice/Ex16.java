@@ -13,7 +13,7 @@ public class Ex16 {
 		
 		for(int i = 1 ; i <= x; i++) {
 			if(i % 5 == 0) {
-				count++;
+				count = ++count;
 				hap += i;
 			}
 		}

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ex20 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int x;
 		char ch;
@@ -19,7 +18,7 @@ public class Ex20 {
 			System.out.println("\t[숫자맞추기게임 시작]");
 			System.out.println("================================");
 			int num =  (int)(Math.random()*100)+0;
-			
+			System.out.println("숫자 -->"+num);
 			while (ingameflag) {
 				System.out.print(">>");
 				x = sc.nextInt();

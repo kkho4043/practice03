@@ -15,8 +15,9 @@ public class Ex18 {
 			System.out.println("");
 		}
 		
+		
 		for(int i = 2; i <= x ; i++) {
-			for(int j = i; j > 0 ;j--) {
+			for(int j  = i; j > 0 ;j--) {
 				System.out.print("*");
 			}
 			System.out.println("");

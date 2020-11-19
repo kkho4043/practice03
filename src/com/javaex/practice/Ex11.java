@@ -11,11 +11,8 @@ public class Ex11 {
 		int x = sc.nextInt();
 		int sum = 0;
 		
-		for(int i = 1;i <= x;i+=2) {
-			if(x % 2 == 0 && i % 2 != 0) {
-				i++;
-			}
-			sum = sum + i;
+		for(int i = x;i >= 0;i-=2) {
+			sum +=i;
 		}
 		
 		System.out.println("°á°ú°ª : " + sum);
